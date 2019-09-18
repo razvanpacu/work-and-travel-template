@@ -1,0 +1,189 @@
+
+body{
+
+	padding: 0;
+	margin: 0;
+	background-color: #f2f2f2;
+	font-family: Geometry Soft Pro;
+	font-size: 17px;
+	line-height: 150%;
+}
+
+/********partea de sus********/
+header{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+}
+
+header a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	vertical-align: text-top;
+}
+
+header li{
+	/*float: left;*/
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.actual a {
+	background: #ff0202;
+	color: #fff;
+	border-radius: 6px; ;
+}
+
+.continut{
+	margin-left: 5%;
+	margin-right: 5%;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.continut2{
+	margin-left: 2%;
+	margin-right: 25%;
+	text-align: justify;
+}
+.testimoniale2{
+	text-align: justify;
+	margin-left: 5px;
+	margin-right:5px;
+
+}
+
+.titluri {
+	
+	text-align: center;
+	font-size: 28px;
+}
+/********Tari********/
+.pozetari{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+
+/*tabel subscribe*/
+.tabel22{
+	width: 100%;
+	background-color:#051019;
+	opacity: 0.8;
+	padding: 50px 0px;
+}
+
+.fundaltabel{
+
+	 position: relative;
+	 text-align: center;
+	top: 10%;
+	height: 65%;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -16px;
+}
+.camp{ 
+	padding: 10px;
+	width: 250px;
+	border-radius: 5px;
+
+}
+.butonu{
+	cursor: pointer;
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+	background-color: #0c6996;
+	border:2px solid #01010c;
+	color:aliceblue;
+	font-size: 18px;
+
+}
+
+.butonu:hover{
+	background-color:  #1d5f95;
+}
+.buton2{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+	background-color: #0c6996;
+	border:2px solid #01010c;
+	color:aliceblue;
+	font-size: 20px;
+	font-family: arial;
+	cursor: pointer;
+	 position: relative;
+	 text-align: center;
+	 opacity: 0.8;
+	 margin-left: 8%;
+}
+.butonu2:hover{
+	background-color:  #267ac0;
+  }
+/*testimoniale bullets*/
+.testimoniale{
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.testimoniale ::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+.testimoniale img{
+  float: left;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+  .testimoniale {
+  	 text-align: center;
+     
+  }
+  .testimoniale img {
+
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+/*************tabel adrese************/
+#adresa123 {
+      font-family: Geometry Soft Pro;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    #adresa123 td, #adresa123 th{
+      border: 1px solid   #00008B;
+      padding: 8px;
+    }
+
+    #adresa123 tr:nth-child(even){background-color: #f2f2f2;}
+    #adresa123 th{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color:   CornflowerBlue ;
+      color: white;
+    }
